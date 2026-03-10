@@ -38,7 +38,7 @@ const CSS = `
   /* ══ ヘッダー ══ */
   .header {
     background: linear-gradient(160deg, #4A7C59 0%, #5E9470 50%, #3D6B4A 100%);
-    padding: 52px 28px 36px;
+    padding: 64px 28px 36px;
     position: relative;
     overflow: hidden;
     border-radius: 0 0 36px 36px;
