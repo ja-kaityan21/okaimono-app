@@ -38,7 +38,7 @@ const CSS = `
   /* ══ ヘッダー ══ */
   .header {
     background: linear-gradient(160deg, #4A7C59 0%, #5E9470 50%, #3D6B4A 100%);
-    padding: 64px 28px 36px;
+    padding: 80px 28px 36px;
     position: relative;
     overflow: hidden;
     border-radius: 0 0 36px 36px;
@@ -139,7 +139,7 @@ const CSS = `
   .add-input:focus { border-color:#4A7C59; box-shadow:0 0 0 4px rgba(74,124,89,0.1); }
   .add-input::placeholder { color:#C8C0B8; }
   .add-btn {
-    width:64px; height:64px; border-radius:16px; flex-shrink:0;
+    width:80px; height:80px; border-radius:16px; flex-shrink:0;
     background:#4A7C59; border:none; cursor:pointer;
     font-size:26px; color:#fff; font-weight:900;
     display:flex; align-items:center; justify-content:center;
@@ -233,9 +233,9 @@ const CSS = `
 
   /* 空状態 */
   .empty {
-    text-align:center; padding:64px 24px;
+    text-align:center; padding:80px 24px;
   }
-  .empty-emo { font-size:64px; margin-bottom:18px; display:block; animation:wiggle 2.5s ease infinite; }
+  .empty-emo { font-size:80px; margin-bottom:18px; display:block; animation:wiggle 2.5s ease infinite; }
   .empty-title { font-family:'Playfair Display',serif; font-size:18px; color:#2a2a2a; margin-bottom:8px; }
   .empty-sub { font-size:13px; color:#B0A898; line-height:1.7; }
 
